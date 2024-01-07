@@ -1,0 +1,231 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+.carddetail-main-container a {
+    text-decoration: none;
+ 
+}
+ .carddetail-container {
+     margin-top: 5rem;
+     width: 100%;
+     height: 120rem;
+     /* border: 1px solid red; */
+     /* margin: 2px; */
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     align-items: center;
+ }
+
+ .carddetail-main-container {
+     /* margin-top: -5rem; */
+     /* border: 1px solid black; */
+     width: 90vw;
+     height: 200rem;
+     display: flex;
+ }
+
+ .carddetail-c-container {
+     width: 30%;
+     height: 380px;
+     /* border: 1px solid rgb(74, 69, 69); */
+     /* margin: 4px; */
+     margin-left: 3rem;
+     margin-right: 3rem;
+     margin-top: 3rem;
+     border-top-left-radius: 5px;
+     border-top-right-radius: 5px;
+     border-bottom-left-radius: 2px;
+     border-bottom-right-radius: 2px;
+ }
+  @media (max-width:956px) {
+      .carddetail-c-container {
+          width: 40%;
+      }
+  }
+  @media (max-width:838px) {
+      .carddetail-c-container {
+          width: 50%;
+      }
+  }
+  @media (max-width:753px) {
+      .carddetail-c-container {
+          width: 60%;
+      }
+  }
+  @media (max-width:717px) {
+      .carddetail-c-container {
+          width: 70%;
+      }
+  }
+  @media (max-width:690px) {
+      .carddetail-c-container {
+          width: 80%;
+      }
+  }
+  @media (max-width:639px) {
+      .carddetail-c-container {
+          width: 90%;
+      }
+  }
+  @media (max-width:593px) {
+      .carddetail-c-container {
+          width: 100%;
+      }
+  }
+  @media (max-width:588px) {
+      .carddetail-c-container {
+          width: 130%;
+      }
+  }
+
+ .carddetail-text {
+     /* border: 1px solid black; */
+     /* margin: 4px; */
+     width: 50%;
+     height: 700px;
+     margin-top: 3rem;
+     margin-left: 3rem;
+ }
+
+ .carddetail-text-head {
+     font-size: 40px;
+     font-style: oblique;
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 2rem;
+ }
+  @media (max-width:954px) {
+      .carddetail-text-head {
+          font-size: 30px;
+      }
+  }
+  @media (max-width:818px) {
+      .carddetail-text-head {
+          font-size: 25px;
+      }
+  }
+
+
+ @media (max-width:762px) {
+     .carddetail-text-head{
+         font-size: 20px;
+     }
+ }
+  @media (max-width:678px) {
+      .carddetail-text-head {
+          font-size: 20px;
+      }
+  }
+ 
+
+ .carddetail-text-para {
+     text-align: justify;
+     padding: 0rem 3rem;
+ }
+
+ .card-d-card {
+     overflow: hidden;
+     display: flex;
+     flex-direction: column;
+     /* border: 1px solid rgb(12, 8, 8); */
+     border-radius: 5px;
+     height: 100%;
+    background-color: rgb(241, 236, 229);
+
+
+ }
+
+ .carddetail_image_container {
+     position: relative;
+     overflow: hidden;
+     height: 14rem;
+ }
+ @media (max-width:664px) {
+     .carddetail_image_container {
+         height: 60%;
+     }
+ }
+
+ .carddetail_image {
+     object-fit: cover;
+     object-position: center;
+     position: absolute;
+     height: 100%;
+     width: 100%;
+ }
+
+ .carddetail_title_container {
+     display: flex;
+     flex-direction: column;
+     padding: 15px;
+ }
+
+ .carddetail_container:hover .card_image {
+     transform: scale(1.1);
+     transition-duration: 200ms;
+ }
+
+ .carddetail_title {
+     font-size: 1.3rem;
+     font-weight: 600;
+     font-weight: bold;
+     color: black;
+     line-height: 1.5rem;
+     margin-top: 0.3rem;
+ }
+ @media (max-width:691px) {
+     .carddetail_title {
+         font-size: 0.8rem;
+     }
+ }
+ @media (max-width:586px) {
+     .carddetail_title {
+         font-size: 0.6rem;
+     }
+ }
+
+ .carddetail_title:hover {
+     color: blue;
+     font-size: 1.3rem;
+     
+ }
+
+
+
+ .carddetail_wholesale {
+     /* border: 1px solid black; */
+     margin-top: 1px;
+     padding-left: 15px;
+     font-size: 20px;
+ }
+ @media (max-width:691px) {
+     .carddetail_wholesale {
+         font-size: 10px;
+     }
+ }
+
+ @media (max-width:567px) {
+     .carddetail_wholesale {
+         font-size: 7px;
+     }
+ }
+
+ .carddetail_retail {
+     /* border: 1px solid blue; */
+     margin-top: 4px;
+     padding-left: 15px;
+     font-size: 20px;
+ }
+ @media (max-width:691px) {
+     .carddetail_retail {
+         font-size: 10px;
+     }
+ }
+  @media (max-width:567px) {
+      .carddetail_retail {
+          font-size: 7px;
+      }
+  }
